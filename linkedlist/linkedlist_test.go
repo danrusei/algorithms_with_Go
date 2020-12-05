@@ -6,7 +6,7 @@ import (
 )
 
 func TestLinkedList(t *testing.T) {
-	list := New()
+	list := NewLinkedlist()
 	list.AddAtBeg(1)
 	list.AddAtBeg(2)
 	list.AddAtBeg(3)

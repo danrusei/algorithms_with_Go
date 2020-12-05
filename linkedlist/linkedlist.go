@@ -20,17 +20,17 @@ type linkedlist struct {
 }
 
 //CreateList defines new linked list
-func New() *linkedlist {
+func NewLinkedlist() *linkedlist {
 	return &linkedlist{}
 }
 
-func newnode(val int) *node {
+func NewNode(val int) *node {
 	return &node{val, nil}
 }
 
 //AddAtBeg adds a Node at the beginning of the list
 func (ll *linkedlist) AddAtBeg(val int) {
-	n := newnode(val)
+	n := NewNode(val)
 	n.Next = ll.Head
 	ll.Head = n
 	ll.length++
@@ -39,7 +39,7 @@ func (ll *linkedlist) AddAtBeg(val int) {
 
 //AddAtEnd adds a Node at the end of the list
 func (ll *linkedlist) AddAtEnd(val int) {
-	n := newnode(val)
+	n := NewNode(val)
 
 	if ll.Head == nil {
 		ll.Head = n
@@ -84,6 +84,7 @@ func (ll *linkedlist) DelAtEnd() int {
 	return val
 }
 
+//DeleteWithValute deletes a node which value is equal to the function parameter
 func (ll *linkedlist) DeleteWithValute(val int) int {
 	if ll.Head == nil {
 		return -1
