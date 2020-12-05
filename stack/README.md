@@ -8,15 +8,3 @@ A stack is an abstract data type that serves as a collection of elements, with t
 * Pop -- removes the most recently added element that was not yet removed.
 
 The order in which elements come off a stack gives rise to its alternative name, LIFO (last in, first out).
-
-
-## Implementation
-
-### GO
-
-* create a a new type named Stack, which is a slice of ints
-* create push method to add an element to the Stack
-* create pop method to remove the element from the Stack
-
-
-

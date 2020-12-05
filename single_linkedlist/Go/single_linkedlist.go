@@ -1,16 +1,25 @@
+/*
+Package singlelinkedlist implements:
+	Create a a new Linkedlist and Node
+	Insert a Node at the beginning of the list
+	Insert a Node at the end of the list
+	Delete a Node from the beginning of the list
+	Delete a Node from the end of the list
+	Print the Linkedlis
+*/
 package singlelinkedlist
 
-
 type node struct {
-	val int
+	val  int
 	Next *node
 }
 
 type linkedlist struct {
 	length int
-	Head *node
+	Head   *node
 }
 
+//CreateList defines new linked list
 func CreateList() *linkedlist {
 	return &linkedlist{}
 }
@@ -35,14 +44,14 @@ func (ll *linkedlist) AddAtEnd(val int) {
 	if ll.Head == nil {
 		ll.Head = n
 		ll.length++
-		return 
+		return
 	}
 
 	cur := ll.Head
 	for ; cur.Next != nil; cur = cur.Next {
-	} 
+	}
 
-	cur.Next =n 
+	cur.Next = n
 	ll.length++
 }
 
@@ -65,7 +74,7 @@ func (ll *linkedlist) DelAtEnd() int {
 	}
 
 	cur := ll.Head
-	for ; cur.Next.Next  != nil; cur = cur.Next {
+	for ; cur.Next.Next != nil; cur = cur.Next {
 	}
 
 	val := cur.Next.val

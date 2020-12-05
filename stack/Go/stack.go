@@ -1,3 +1,9 @@
+/*
+Package stack implements:
+	a a new type named Stack, which is a slice of ints
+	push method to add an element to the Stack
+	pop method to remove the element from the Stac
+*/
 package stack
 
 //Stack represent a stack
