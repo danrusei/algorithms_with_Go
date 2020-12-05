@@ -4,17 +4,9 @@ Go (maybe later Rust and Python) data structures and algorithms
 
 ## Datastructures
 
-### [Queue](https://github.com/danrusei/data_structures_and_algo/tree/main/queue)
-
-* [Go](https://github.com/danrusei/data_structures_and_algo/tree/main/queue/Go)
-
-### [Stack](https://github.com/danrusei/data_structures_and_algo/tree/main/stack)
-
-* [Go](https://github.com/danrusei/data_structures_and_algo/tree/main/stack/Go)
-
-### [Single-Linkedlist](https://github.com/danrusei/data_structures_and_algo/tree/main/single_linkedlist)
-
-* [Go](https://github.com/danrusei/data_structures_and_algo/tree/main/single_linkedlist/Go)
+* **[Queue](https://github.com/danrusei/data_structures_and_algo/tree/main/queue)** - [Go](https://github.com/danrusei/data_structures_and_algo/tree/main/queue/Go)
+* **[Stack](https://github.com/danrusei/data_structures_and_algo/tree/main/stack)** - [Go](https://github.com/danrusei/data_structures_and_algo/tree/main/stack/Go)
+* **[Single-Linkedlist](https://github.com/danrusei/data_structures_and_algo/tree/main/single_linkedlist)** [Go](https://github.com/danrusei/data_structures_and_algo/tree/main/single_linkedlist/Go)
 
 ### TODO
 
