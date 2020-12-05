@@ -1,4 +1,4 @@
-package singlelinkedlist
+package linkedlist
 
 import (
 	"testing"
@@ -6,7 +6,7 @@ import (
 )
 
 func TestLinkedList(t *testing.T) {
-	list := CreateList()
+	list := New()
 	list.AddAtBeg(1)
 	list.AddAtBeg(2)
 	list.AddAtBeg(3)

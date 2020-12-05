@@ -1,5 +1,5 @@
 /*
-Package singlelinkedlist implements:
+Package linkedlist implements:
 	Create a a new Linkedlist and Node
 	Insert a Node at the beginning of the list
 	Insert a Node at the end of the list
@@ -7,7 +7,7 @@ Package singlelinkedlist implements:
 	Delete a Node from the end of the list
 	Print the Linkedlis
 */
-package singlelinkedlist
+package linkedlist
 
 type node struct {
 	val  int
@@ -20,7 +20,7 @@ type linkedlist struct {
 }
 
 //CreateList defines new linked list
-func CreateList() *linkedlist {
+func New() *linkedlist {
 	return &linkedlist{}
 }
 
