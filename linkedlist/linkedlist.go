@@ -9,27 +9,30 @@ Package linkedlist implements:
 */
 package linkedlist
 
-type node struct {
+// Node struct holds a node
+type Node struct {
 	val  int
-	Next *node
+	Next *Node
 }
 
-type linkedlist struct {
+// Linkedlist struct holds a linked list
+type Linkedlist struct {
 	length int
-	Head   *node
+	Head   *Node
 }
 
-//CreateList defines new linked list
-func NewLinkedlist() *linkedlist {
-	return &linkedlist{}
+// NewLinkedlist creates a new linked list
+func NewLinkedlist() *Linkedlist {
+	return &Linkedlist{}
 }
 
-func NewNode(val int) *node {
-	return &node{val, nil}
+// NewNode creates a new node
+func NewNode(val int) *Node {
+	return &Node{val, nil}
 }
 
 //AddAtBeg adds a Node at the beginning of the list
-func (ll *linkedlist) AddAtBeg(val int) {
+func (ll *Linkedlist) AddAtBeg(val int) {
 	n := NewNode(val)
 	n.Next = ll.Head
 	ll.Head = n
@@ -38,7 +41,7 @@ func (ll *linkedlist) AddAtBeg(val int) {
 }
 
 //AddAtEnd adds a Node at the end of the list
-func (ll *linkedlist) AddAtEnd(val int) {
+func (ll *Linkedlist) AddAtEnd(val int) {
 	n := NewNode(val)
 
 	if ll.Head == nil {
@@ -56,7 +59,7 @@ func (ll *linkedlist) AddAtEnd(val int) {
 }
 
 //DelAtBeg deletes a node from the beginning of the list
-func (ll *linkedlist) DelAtBeg() int {
+func (ll *Linkedlist) DelAtBeg() int {
 	if ll.Head == nil {
 		return -1
 	}
@@ -68,7 +71,7 @@ func (ll *linkedlist) DelAtBeg() int {
 }
 
 //DelAtEnd deletes a node from the end of the list
-func (ll *linkedlist) DelAtEnd() int {
+func (ll *Linkedlist) DelAtEnd() int {
 	if ll.Head == nil {
 		return -1
 	}
@@ -85,7 +88,7 @@ func (ll *linkedlist) DelAtEnd() int {
 }
 
 //DeleteWithValute deletes a node which value is equal to the function parameter
-func (ll *linkedlist) DeleteWithValute(val int) int {
+func (ll *Linkedlist) DeleteWithValute(val int) int {
 	if ll.Head == nil {
 		return -1
 	}
