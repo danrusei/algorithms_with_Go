@@ -12,6 +12,7 @@ type linkedlist struct {
 	Head   *node
 }
 
+// utility function to print the linkedlist
 func (ll *linkedlist) String() string {
 	cur := ll.Head
 	printedlist := fmt.Sprintf("%d", cur.val)
@@ -22,15 +23,20 @@ func (ll *linkedlist) String() string {
 
 }
 
+// creates a new linkedlist
 func newLinkedlist() *linkedlist {
 	return &linkedlist{}
 }
 
+// creates a new node
 func newNode(val int) *node {
 	return &node{val, nil}
 }
 
+// method to insert nodes, ordered by the values
 func (ll *linkedlist) sortedInsert(n *node) {
+
+	//special case for the head end
 	if ll.Head == nil || ll.Head.val >= n.val {
 		n.Next = ll.Head
 		ll.Head = n
@@ -38,6 +44,7 @@ func (ll *linkedlist) sortedInsert(n *node) {
 		return
 	}
 
+	//locate the node before the point of insertion
 	cur := ll.Head
 	for ; cur.Next != nil && cur.Next.val < n.val; cur = cur.Next {
 	}
