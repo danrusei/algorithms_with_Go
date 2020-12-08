@@ -16,7 +16,7 @@ func (ll *linkedlist) String() string {
 	cur := ll.Head
 	printedlist := fmt.Sprintf("%d", cur.val)
 	for ; cur.Next != nil; cur = cur.Next {
-		printedlist = printedlist + fmt.Sprintf("%d", cur.val)
+		printedlist = printedlist + fmt.Sprintf("%d \t", cur.val)
 	}
 	return printedlist
 
@@ -31,37 +31,28 @@ func newNode(val int) *node {
 }
 
 func (ll *linkedlist) sortedInsert(n *node) {
-	if ll.Head == nil {
+	if ll.Head == nil || ll.Head.val >= n.val {
+		n.Next = ll.Head
 		ll.Head = n
 		ll.length++
 		return
 	}
-	if ll.Head.val > n.val {
-		n.Next = ll.Head
-		ll.Head = n
-		ll.length++
-	}
 
 	cur := ll.Head
-	for cur.val > n.val {
-		if cur.Next == nil {
-			cur.Next = n
-			ll.length++
-			return
-		}
-		cur = cur.Next
+	for ; cur.Next != nil && cur.Next.val < n.val; cur = cur.Next {
 	}
 	n.Next = cur.Next
 	cur.Next = n
+	ll.length++
 }
 
 func main() {
 	llist := newLinkedlist()
 	node := newNode(5)
 	llist.sortedInsert(node)
-	node = newNode(10)
+	node = newNode(8)
 	llist.sortedInsert(node)
-	node = newNode(7)
+	node = newNode(10)
 	llist.sortedInsert(node)
 	node = newNode(3)
 	llist.sortedInsert(node)

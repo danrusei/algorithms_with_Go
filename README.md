@@ -16,18 +16,18 @@ Based on the article: [Geeksforgeeks Algos to revision](https://www.geeksforgeek
 * Boggle (Find all possible words in a board of characters)
 * Bridges in a Graph
 
-## [Linked List](https://github.com/danrusei/algorithms_with_Go/tree/main/linked_list)
+## [Linked List](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist)
 
-* [Insertion of a node in Linked List (On the basis of some constraints)](https://github.com/danrusei/algorithms_with_Go/tree/main/linked_list/insert_node)
-* Delete a given node in Linked List (under given constraints)
-* Compare two strings represented as linked lists
-* Add Two Numbers Represented By Linked Lists
-* Merge A Linked List Into Another Linked List At Alternate Positions
-* Reverse A List In Groups Of Given Size
-* Union And Intersection Of 2 Linked Lists
-* Detect And Remove Loop In A Linked List
-* Merge Sort For Linked Lists
-* Select A Random Node from A Singly Linked List
+- [x] [Insertion of a node in Linked List (On the basis of some constraints)](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist/insert_node)
+- [] Delete a given node in Linked List (under given constraints)
+- [] Compare two strings represented as linked lists
+- [] Add Two Numbers Represented By Linked Lists
+- [] Merge A Linked List Into Another Linked List At Alternate Positions
+- [] Reverse A List In Groups Of Given Size
+- [] Union And Intersection Of 2 Linked Lists
+- [] Detect And Remove Loop In A Linked List
+- [] Merge Sort For Linked Lists
+- [] Select A Random Node from A Singly Linked List
 
 ## Dynamic Programming
 
