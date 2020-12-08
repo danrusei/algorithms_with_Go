@@ -13,13 +13,13 @@ import "fmt"
 
 // Node struct holds a node
 type Node struct {
-	val  int
+	Val  int
 	Next *Node
 }
 
 // Linkedlist struct holds a linked list
 type Linkedlist struct {
-	length int
+	Length int
 	Head   *Node
 }
 
@@ -36,12 +36,12 @@ func NewNode(val int) *Node {
 // utility function to print the linkedlist
 func (ll *Linkedlist) String() string {
 	cur := ll.Head
-	printedlist := fmt.Sprintf("%d", cur.val)
+	var printedlist string
 	for ; cur.Next != nil; cur = cur.Next {
-		printedlist = printedlist + fmt.Sprintf("%d \t", cur.val)
+		printedlist = printedlist + fmt.Sprintf("%d \t", cur.Val)
 	}
+	printedlist = printedlist + fmt.Sprintf("%d", cur.Val)
 	return printedlist
-
 }
 
 //AddAtBeg adds a Node at the beginning of the list
@@ -49,7 +49,7 @@ func (ll *Linkedlist) AddAtBeg(val int) {
 	n := NewNode(val)
 	n.Next = ll.Head
 	ll.Head = n
-	ll.length++
+	ll.Length++
 
 }
 
@@ -59,7 +59,7 @@ func (ll *Linkedlist) AddAtEnd(val int) {
 
 	if ll.Head == nil {
 		ll.Head = n
-		ll.length++
+		ll.Length++
 		return
 	}
 
@@ -68,7 +68,7 @@ func (ll *Linkedlist) AddAtEnd(val int) {
 	}
 
 	cur.Next = n
-	ll.length++
+	ll.Length++
 }
 
 //DelAtBeg deletes a node from the beginning of the list
@@ -78,9 +78,9 @@ func (ll *Linkedlist) DelAtBeg() int {
 	}
 	cur := ll.Head
 	ll.Head = cur.Next
-	ll.length--
+	ll.Length--
 
-	return cur.val
+	return cur.Val
 }
 
 //DelAtEnd deletes a node from the end of the list
@@ -93,9 +93,9 @@ func (ll *Linkedlist) DelAtEnd() int {
 	for ; cur.Next.Next != nil; cur = cur.Next {
 	}
 
-	val := cur.Next.val
+	val := cur.Next.Val
 	cur.Next = nil
-	ll.length--
+	ll.Length--
 
 	return val
 }
@@ -107,15 +107,15 @@ func (ll *Linkedlist) DeleteWithValute(val int) int {
 	}
 
 	cur := ll.Head
-	for cur.Next.val != val {
+	for cur.Next.Val != val {
 		if cur.Next.Next == nil {
 			return -1
 		}
 		cur = cur.Next
 	}
-	value := cur.Next.val
+	value := cur.Next.Val
 	cur.Next = cur.Next.Next
-	ll.length--
+	ll.Length--
 
 	return value
 }

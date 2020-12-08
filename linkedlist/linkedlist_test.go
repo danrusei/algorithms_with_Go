@@ -1,8 +1,8 @@
 package linkedlist
 
 import (
-	"testing"
 	"reflect"
+	"testing"
 )
 
 func TestLinkedList(t *testing.T) {
@@ -15,10 +15,10 @@ func TestLinkedList(t *testing.T) {
 		want := []int{3, 2, 1}
 		got := []int{}
 		current := list.Head
-		got = append(got, current.val)
+		got = append(got, current.Val)
 		for current.Next != nil {
 			current = current.Next
-			got = append(got, current.val)
+			got = append(got, current.Val)
 		}
 		if !reflect.DeepEqual(got, want) {
 			t.Errorf("got: %v, want: %v", got, want)
@@ -31,10 +31,10 @@ func TestLinkedList(t *testing.T) {
 		want := []int{3, 2, 1, 4}
 		got := []int{}
 		current := list.Head
-		got = append(got, current.val)
+		got = append(got, current.Val)
 		for current.Next != nil {
 			current = current.Next
-			got = append(got, current.val)
+			got = append(got, current.Val)
 		}
 		if !reflect.DeepEqual(got, want) {
 			t.Errorf("got: %v, want: %v", got, want)

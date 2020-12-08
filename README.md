@@ -1,7 +1,9 @@
 # Data Structures and Algorithms
 
-Go data structures and algorithms  
-Based on the article: [Geeksforgeeks Algos to revision](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)
+**Go data structures and algorithms**  
+The intent of this repository is to solve with **Go** the problems idetified by Geeksforgeeks as must known for coding interview.  
+ 
+Based on the article: **[Geeksforgeeks Algos to revision](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)**
 
 ## Graph
 
@@ -23,7 +25,7 @@ Based on the article: [Geeksforgeeks Algos to revision](https://www.geeksforgeek
 - [] Compare two strings represented as linked lists
 - [] Add Two Numbers Represented By Linked Lists
 - [] Merge A Linked List Into Another Linked List At Alternate Positions
-- [] Reverse A List In Groups Of Given Size
+- [x] [Reverse A List In Groups Of Given Size](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist/reverse_by_groups)
 - [] Union And Intersection Of 2 Linked Lists
 - [] Detect And Remove Loop In A Linked List
 - [] Merge Sort For Linked Lists

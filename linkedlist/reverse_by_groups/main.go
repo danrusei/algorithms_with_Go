@@ -11,8 +11,8 @@ type llist struct {
 }
 
 // Reverses the linked list in groups of size k and returns the pointer to the new head node.
-func (ll *llist) reverseGroups(k int) *linkedlist.Node {
-	curr := ll.Head
+func (ll *llist) reverseGroups(node *linkedlist.Node, k int) *linkedlist.Node {
+	curr := node
 	next := &linkedlist.Node{}
 	prev := &linkedlist.Node{}
 	count := 0
@@ -33,7 +33,7 @@ func (ll *llist) reverseGroups(k int) *linkedlist.Node {
 	// Recursively call for the list starting from current.
 	// And make rest of the list as next of first node
 	if next != nil {
-		ll.Head = ll.reverseGroups(k)
+		ll.Head.Next = ll.reverseGroups(next, k)
 	}
 
 	// prev is new head of the input list
@@ -51,9 +51,9 @@ func main() {
 	list.AddAtEnd(3)
 	list.AddAtEnd(2)
 	list.AddAtEnd(1)
+	fmt.Println(list.String())
 
-	fmt.Println(list)
-	list.reverseGroups(3)
-	fmt.Println(list)
+	list.Head = list.reverseGroups(list.Head, 3)
+	fmt.Println(list.String())
 
 }

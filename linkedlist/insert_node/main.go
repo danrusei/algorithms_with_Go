@@ -1,72 +1,49 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-type node struct {
-	val  int
-	Next *node
-}
+	"github.com/danrusei/data_structures_and_algo/tree/main/linkedlist"
+)
 
-type linkedlist struct {
-	length int
-	Head   *node
-}
-
-// utility function to print the linkedlist
-func (ll *linkedlist) String() string {
-	cur := ll.Head
-	printedlist := fmt.Sprintf("%d", cur.val)
-	for ; cur.Next != nil; cur = cur.Next {
-		printedlist = printedlist + fmt.Sprintf("%d \t", cur.val)
-	}
-	return printedlist
-
-}
-
-// creates a new linkedlist
-func newLinkedlist() *linkedlist {
-	return &linkedlist{}
-}
-
-// creates a new node
-func newNode(val int) *node {
-	return &node{val, nil}
+type llist struct {
+	linkedlist.Linkedlist
 }
 
 // method to insert nodes, ordered by the values
-func (ll *linkedlist) sortedInsert(n *node) {
+func (ll *llist) sortedInsert(n *linkedlist.Node) {
 
 	//special case for the head end
-	if ll.Head == nil || ll.Head.val >= n.val {
+	if ll.Head == nil || ll.Head.Val >= n.Val {
 		n.Next = ll.Head
 		ll.Head = n
-		ll.length++
+		ll.Length++
 		return
 	}
 
 	//locate the node before the point of insertion
 	cur := ll.Head
-	for ; cur.Next != nil && cur.Next.val < n.val; cur = cur.Next {
+	for ; cur.Next != nil && cur.Next.Val < n.Val; cur = cur.Next {
 	}
 	n.Next = cur.Next
 	cur.Next = n
-	ll.length++
+	ll.Length++
 }
 
 func main() {
-	llist := newLinkedlist()
-	node := newNode(5)
-	llist.sortedInsert(node)
-	node = newNode(8)
-	llist.sortedInsert(node)
-	node = newNode(10)
-	llist.sortedInsert(node)
-	node = newNode(3)
-	llist.sortedInsert(node)
-	node = newNode(1)
-	llist.sortedInsert(node)
-	node = newNode(9)
-	llist.sortedInsert(node)
+	list := llist{}
+	node := linkedlist.NewNode(5)
+	list.sortedInsert(node)
+	node = linkedlist.NewNode(8)
+	list.sortedInsert(node)
+	node = linkedlist.NewNode(10)
+	list.sortedInsert(node)
+	node = linkedlist.NewNode(3)
+	list.sortedInsert(node)
+	node = linkedlist.NewNode(1)
+	list.sortedInsert(node)
+	node = linkedlist.NewNode(9)
+	list.sortedInsert(node)
 
-	fmt.Println(llist)
+	fmt.Println(list.String())
 }
