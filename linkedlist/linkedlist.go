@@ -9,6 +9,8 @@ Package linkedlist implements:
 */
 package linkedlist
 
+import "fmt"
+
 // Node struct holds a node
 type Node struct {
 	val  int
@@ -29,6 +31,17 @@ func NewLinkedlist() *Linkedlist {
 // NewNode creates a new node
 func NewNode(val int) *Node {
 	return &Node{val, nil}
+}
+
+// utility function to print the linkedlist
+func (ll *Linkedlist) String() string {
+	cur := ll.Head
+	printedlist := fmt.Sprintf("%d", cur.val)
+	for ; cur.Next != nil; cur = cur.Next {
+		printedlist = printedlist + fmt.Sprintf("%d \t", cur.val)
+	}
+	return printedlist
+
 }
 
 //AddAtBeg adds a Node at the beginning of the list
