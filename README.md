@@ -27,7 +27,7 @@ Based on the article: **[Geeksforgeeks Algos to revision](https://www.geeksforge
 - [] Merge A Linked List Into Another Linked List At Alternate Positions
 - [x] [Reverse A List In Groups Of Given Size](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist/reverse_by_groups)
 - [] Union And Intersection Of 2 Linked Lists
-- [] Detect And Remove Loop In A Linked List
+- [x] [Detect And Remove Loop In A Linked List](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist/remove_loop)
 - [] Merge Sort For Linked Lists
 - [] Select A Random Node from A Singly Linked List
 
