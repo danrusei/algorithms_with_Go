@@ -13,11 +13,11 @@ The intent of this repository is to solve in **Go** the problems identified in t
 
 - [] Breadth First Search (BFS)
 - [] Depth First Search (DFS)
-- [] Shortest Path from source to all vertices **Dijkstra**
-- [] Shortest Path from every vertex to every other vertex **Floyd Warshall**
-- [] To detect cycle in a Graph **Union Find**
-- [] Minimum Spanning tree **Prim**
-- [] Minimum Spanning tree **Kruskal**
+- [] Shortest Path from source to all vertices (Dijkstra)
+- [] Shortest Path from every vertex to every other vertex (Floyd Warshall)
+- [] To detect cycle in a Graph (Union Find)
+- [] Minimum Spanning tree (Prim)
+- [] Minimum Spanning tree (Kruskal)
 - [] Topological Sort
 - [] Boggle (Find all possible words in a board of characters)
 - [] Bridges in a Graph
@@ -48,11 +48,11 @@ The intent of this repository is to solve in **Go** the problems identified in t
 - [] 0-1 Knapsack Problem
 - [] Boolean Parenthesization Problem
 
-## Sorting And Searching
+## [Sorting And Searching](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting)
 
 - [] Binary Search
 - [] Search an element in a sorted and rotated array
-- [] Bubble Sort
+- [x] [Bubble Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/bubble_sort)
 - [] Insertion Sort
 - [] Merge Sort
 - [] Heap Sort (Binary Heap)
