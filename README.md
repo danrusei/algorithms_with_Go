@@ -1,9 +1,9 @@
 # Data Structures and Algorithms
 
 **Go data structures and algorithms**  
-The intent of this repository is to solve with **Go** the problems idetified by Geeksforgeeks as must known for coding interview.  
- 
-Based on the article: **[Geeksforgeeks Algos to revision](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)**
+The intent of this repository is to solve in **Go** the problems identified in the **[Geeksforgeeks Algos to revision](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)** article as a must known algorithms for coding interview. The description of the below `unsolved yet` problems can be found in the article.  
+
+***contributions are welcomed, but keep the consistency and document the code***
 
 ### [Queue](https://github.com/danrusei/algorithms_with_Go/tree/main/queue)
 
