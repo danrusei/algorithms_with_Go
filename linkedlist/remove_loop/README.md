@@ -6,8 +6,8 @@ From **[GeeksforGeeks](https://www.geeksforgeeks.org/detect-and-remove-loop-in-a
 
 Given linkedlist:  
 1 -> 2 -> 3 -> 4 -> 5  
-..........|.........|  
-..........8 <- 7 <- 6
+..............|.........|  
+..............8 <- 7 <- 6
 
 Detect and remove the loop.
 
