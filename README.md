@@ -5,6 +5,10 @@ The intent of this repository is to solve with **Go** the problems idetified by 
  
 Based on the article: **[Geeksforgeeks Algos to revision](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)**
 
+### [Queue](https://github.com/danrusei/algorithms_with_Go/tree/main/queue)
+
+### [Stack](https://github.com/danrusei/algorithms_with_Go/tree/main/stack)
+
 ## Graph
 
 - [] Breadth First Search (BFS)
