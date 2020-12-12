@@ -7,11 +7,11 @@ import (
 
 func TestBubblesort(t *testing.T) {
 	for _, tc := range testcases {
-		got := tc.sort(tc.original)
-
-		if !reflect.DeepEqual(got, tc.sorted) {
-			t.Errorf("got: %v, want: %v", got, tc.sorted)
-
-		}
+		t.Run(tc.name, func(t *testing.T) {
+			bubblesort(tc.original)
+			if !reflect.DeepEqual(tc.original, tc.sorted) {
+				t.Errorf("got: %v, want: %v", tc.original, tc.sorted)
+			}
+		})
 	}
 }
