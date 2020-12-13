@@ -3,7 +3,9 @@
 **Go data structures and algorithms**  
 The intent of this repository is to solve in **Go** the problems identified in the **[Geeksforgeeks Algos to revision](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)** article as a must known algorithms for coding interview. The description of the below `unsolved yet` problems can be found in the article.  
 
-***contributions are welcomed, but keep the consistency and document the code***
+> ***Contributions are welcomed, following below guidelines***
+> * keep the consistency and document the code
+> * keep it simple, easy to read and understand (not over-engineered, best performance is not in scope)
 
 ### [Queue](https://github.com/danrusei/algorithms_with_Go/tree/main/queue)
 
@@ -53,10 +55,10 @@ The intent of this repository is to solve in **Go** the problems identified in t
 - [] Binary Search
 - [] Search an element in a sorted and rotated array
 - [x] [Bubble Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/bubble_sort)
-- [] Insertion Sort
+- [x] [Insertion Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/insertion_sort)
 - [] Merge Sort
 - [] Heap Sort (Binary Heap)
-- [] Quick Sort
+- [x] [Quick Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/quick_sort)
 - [] Interpolation Search
 - [] Find Kth Smallest/Largest Element In Unsorted Array
 - [] Given a sorted array and a number x, find the pair in array whose sum is closest to x
