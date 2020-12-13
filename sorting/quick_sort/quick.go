@@ -4,7 +4,7 @@ func quicksort(target []int) {
 	sortIt(target, 0, len(target)-1)
 }
 
-//recursive function that runs on splitted slices
+//recursively sort the sub-slices
 func sortIt(target []int, left int, right int) {
 
 	// returns when there is nothing left to traverse
