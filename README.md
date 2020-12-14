@@ -59,7 +59,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [x] [Bubble Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/bubble_sort)
 - [x] [Insertion Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/insertion_sort)
 - [x] [Merge Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/merge_sort)
-- [] Heap Sort (Binary Heap)
+- [x] [Heap Sort (Binary Heap)](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/heap_sort)
 - [x] [Quick Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/quick_sort)
 - [] Interpolation Search
 - [] Find Kth Smallest/Largest Element In Unsorted Array

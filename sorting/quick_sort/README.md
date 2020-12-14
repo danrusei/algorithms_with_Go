@@ -6,7 +6,7 @@ Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' ele
 
 ## Complexity
 
-Worst Case Time Complexity [ Big-O ]: **O(n2)**  
+Worst Case Time Complexity [ Big-O ]: **O(n * n)**  
 Best Case Time Complexity [Big-omega]: **O(n log n)**  
 Average Time Complexity [Big-theta]: **O(n log n)**  
 Space Complexity: **O(n)**

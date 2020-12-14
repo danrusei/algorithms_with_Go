@@ -6,9 +6,9 @@ Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorith
 
 ## Complexity
 
-Worst Case Time Complexity [ Big-O ]: **O(n2)**  
+Worst Case Time Complexity [ Big-O ]: **O(n * n)**  
 Best Case Time Complexity [Big-omega]: **O(n)**- when the list is already sorted  
-Average Time Complexity [Big-theta]: **O(n2)**  
+Average Time Complexity [Big-theta]: **O(n * n)**  
 Space Complexity: **O(1)**- because only a single additional memory space is required for temp variable  
 
 ## Example

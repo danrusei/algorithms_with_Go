@@ -6,9 +6,9 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 
 ## Complexity
 
-Worst Case Time Complexity [ Big-O ]: **O(n2)**  
+Worst Case Time Complexity [ Big-O ]: **O(n * n)**  
 Best Case Time Complexity [Big-omega]: **O(n)**  
-Average Time Complexity [Big-theta]: **O(n2)**  
+Average Time Complexity [Big-theta]: **O(n * n)**  
 Space Complexity: **O(n)**
 
 ## Algorithm
