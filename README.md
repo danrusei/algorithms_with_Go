@@ -56,7 +56,7 @@ The intent of this repository is to solve in **Go** the problems identified in t
 - [] Search an element in a sorted and rotated array
 - [x] [Bubble Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/bubble_sort)
 - [x] [Insertion Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/insertion_sort)
-- [] Merge Sort
+- [x] [Merge Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/merge_sort)
 - [] Heap Sort (Binary Heap)
 - [x] [Quick Sort](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting/quick_sort)
 - [] Interpolation Search
