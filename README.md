@@ -13,7 +13,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 
 ### [Stack](https://github.com/danrusei/algorithms_with_Go/tree/main/stack)
 
-## Graph
+## [Graph](https://github.com/danrusei/algorithms_with_Go/tree/main/graph)
 
 - [] Breadth First Search (BFS)
 - [] Depth First Search (DFS)
