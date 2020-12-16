@@ -1,3 +1,3 @@
-module github.com/danrusei/data_structures_and_algo/linkedlist
+module github.com/danrusei/algorithms_with_go/linkedlist
 
 go 1.15

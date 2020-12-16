@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/danrusei/data_structures_and_algo/tree/main/linkedlist"
+	"github.com/danrusei/algorithms_with_go/linkedlist"
 )
 
 type llist struct {
