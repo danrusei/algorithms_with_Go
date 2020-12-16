@@ -1,17 +1,44 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/danrusei/algorithms_with_Go/graph"
-	"github.com/danrusei/algorithms_with_Go/queue"
 )
 
 type bfs struct {
 	*graph.Graph
 }
 
+// BFS(Breadth First Search) traversal of the Graph
 func (g *bfs) BFStraverse() {
-	s := new(queue.QueueString)
+	// Create a queue for BFS
+	queue := make([]*graph.Node, 0, len(g.Nodes))
+	//select a starting Node, in our case first node defined
+	n := g.Nodes[0]
 
+	queue = append(queue, n)
+	visited := make(map[*graph.Node]bool)
+
+	for len(queue) > 0 {
+		node := queue[0]
+		//print and pop the Node from the queue
+		fmt.Println(node)
+		queue = queue[1:]
+		// add to visited map, ensuring that it will not be added again to the queue
+		// this ensure that it will not loop endlesssly through the nodes
+		visited[node] = true
+
+		for _, edge := range g.Edges[node] {
+			if !visited[edge.ToNode] {
+				newNode := edge.ToNode
+				queue = append(queue, newNode)
+				visited[newNode] = true
+			}
+
+		}
+
+	}
 }
 
 func main() {
@@ -34,10 +61,9 @@ func main() {
 	g.AddEdge(&nA, &nC)
 	g.AddEdge(&nB, &nE)
 	g.AddEdge(&nC, &nE)
-	g.AddEdge(&nE, &nF)
+	g.AddEdge(&nE, &nA)
 	g.AddEdge(&nD, &nA)
 
 	s := &bfs{g}
 	s.BFStraverse()
-
 }
