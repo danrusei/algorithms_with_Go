@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/danrusei/algorithms_with_Go/tree/main/graph"
-	"github.com/danrusei/algorithms_with_Go/tree/main/queue"
+	"github.com/danrusei/algorithms_with_Go/graph"
+	"github.com/danrusei/algorithms_with_Go/queue"
 )
 
 type bfs struct {
