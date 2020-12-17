@@ -1,6 +1,9 @@
 package main
 
 import (
+	"fmt"
+	"math"
+
 	"github.com/danrusei/algorithms_with_Go/graph"
 )
 
@@ -8,8 +11,63 @@ type spf struct {
 	*graph.Graph
 }
 
+// this code calculates shortest distance, but doesn’t calculate the path information.
 func (g *spf) dijkstra(n *graph.Node) {
 
+	nrNodes := len(g.Nodes)
+
+	//holds the shortest distance from src to i
+	dist := make(map[*graph.Node]int)
+
+	for _, node := range g.Nodes {
+		dist[node] = math.MaxInt32
+	}
+
+	// visited[G] will be true if Node G is included in shortest
+	// path tree or shortest distance from source to G is finalized
+	visited := make(map[*graph.Node]bool)
+
+	dist[n] = 0
+
+	for i := 0; i < nrNodes-1; i++ {
+
+		//Pick the minimum distance Node to the source from the set of vertices not yet processed.
+		nodeX := g.minDistance(dist, visited)
+
+		// Mark the picked vertex as processed
+		visited[nodeX] = true
+
+		for _, nodeY := range g.Nodes {
+
+			if visited[nodeY] || dist[nodeX] == math.MaxInt32 {
+				continue
+			}
+
+			//search if there is an link between nodeX and nodeY
+			for _, link := range g.Edges[nodeX] {
+				if link.ToNode == nodeY && link.Cost+dist[nodeX] < dist[nodeY] {
+					dist[nodeY] = dist[nodeX] + link.Cost
+				}
+			}
+		}
+	}
+
+	fmt.Println(dist)
+
+}
+
+func (g *spf) minDistance(dist map[*graph.Node]int, visited map[*graph.Node]bool) *graph.Node {
+	min := math.MaxInt32
+	minNode := &graph.Node{}
+
+	for _, node := range g.Nodes {
+		if !visited[node] && (dist[node] <= min) {
+			min = dist[node]
+			minNode = node
+		}
+	}
+
+	return minNode
 }
 
 func main() {
