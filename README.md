@@ -17,7 +17,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 
 - [x] [Breadth First Search (BFS)](https://github.com/danrusei/algorithms_with_Go/tree/main/graph/traverse_bfs)
 - [x] [Depth First Search (DFS)](https://github.com/danrusei/algorithms_with_Go/tree/main/graph/traverse_dfs)
-- [] Shortest Path from source to all vertices (Dijkstra)
+- [x] [Shortest Path from source to all vertices (Dijkstra)](https://github.com/danrusei/algorithms_with_Go/tree/main/graph/dijkstra)
 - [] Shortest Path from every vertex to every other vertex (Floyd Warshall)
 - [] To detect cycle in a Graph (Union Find)
 - [] Minimum Spanning tree (Prim)

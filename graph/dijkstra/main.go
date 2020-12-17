@@ -16,19 +16,21 @@ func (g *spf) dijkstra(n *graph.Node) {
 
 	nrNodes := len(g.Nodes)
 
-	//holds the shortest distance from src to i
+	// dist[G] holds the shortest distance from source(in our case node n) to node G
 	dist := make(map[*graph.Node]int)
 
+	// initialize all distances as int Max and the source node with 0
 	for _, node := range g.Nodes {
 		dist[node] = math.MaxInt32
 	}
 
-	// visited[G] will be true if Node G is included in shortest
-	// path tree or shortest distance from source to G is finalized
-	visited := make(map[*graph.Node]bool)
-
 	dist[n] = 0
 
+	// visited[G] will be true if Node G is included in shortest path tree
+	// or shortest distance from source to G is finalized
+	visited := make(map[*graph.Node]bool)
+
+	//find shortest path to all Nodes
 	for i := 0; i < nrNodes-1; i++ {
 
 		//Pick the minimum distance Node to the source from the set of vertices not yet processed.
@@ -37,13 +39,14 @@ func (g *spf) dijkstra(n *graph.Node) {
 		// Mark the picked vertex as processed
 		visited[nodeX] = true
 
+		//update dist value of the adjacent Nodes of the picked Node
 		for _, nodeY := range g.Nodes {
 
 			if visited[nodeY] || dist[nodeX] == math.MaxInt32 {
 				continue
 			}
 
-			//search if there is an link between nodeX and nodeY
+			//if there is an link between nodeX to nodeY, update dist of adjacent nodes value
 			for _, link := range g.Edges[nodeX] {
 				if link.ToNode == nodeY && link.Cost+dist[nodeX] < dist[nodeY] {
 					dist[nodeY] = dist[nodeX] + link.Cost
@@ -56,6 +59,8 @@ func (g *spf) dijkstra(n *graph.Node) {
 
 }
 
+// A utility function to find the Node with minimum distance value, from
+// the set of Nodes not yet included in shortest path tree
 func (g *spf) minDistance(dist map[*graph.Node]int, visited map[*graph.Node]bool) *graph.Node {
 	min := math.MaxInt32
 	minNode := &graph.Node{}

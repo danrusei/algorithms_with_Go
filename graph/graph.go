@@ -146,17 +146,22 @@ func (g *Graph) GetEdgeValue(x *Node, y *Node) int {
 
 // SetEdgeValue : sets the value associated with the edge (x, y) to v.
 func (g *Graph) SetEdgeValue(x, y *Node, value int) bool {
+	doneX := false
+	doneY := false
 	for _, link := range g.Edges[x] {
 		if link.ToNode == y {
 			link.Cost = value
-			return true
+			doneX = true
 		}
 	}
 	for _, link := range g.Edges[y] {
 		if link.ToNode == x {
 			link.Cost = value
-			return true
+			doneY = true
 		}
+	}
+	if doneX && doneY {
+		return true
 	}
 	return false
 }
