@@ -15,7 +15,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 
 ## [Graph](https://github.com/danrusei/algorithms_with_Go/tree/main/graph)
 
-- [] Breadth First Search (BFS)
+- [x] [Breadth First Search (BFS)](https://github.com/danrusei/algorithms_with_Go/tree/main/graph/traverse_bfs)
 - [] Depth First Search (DFS)
 - [] Shortest Path from source to all vertices (Dijkstra)
 - [] Shortest Path from every vertex to every other vertex (Floyd Warshall)

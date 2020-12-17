@@ -22,13 +22,14 @@ func (g *bfs) BFStraverse() {
 
 	for len(queue) > 0 {
 		node := queue[0]
-		//print and pop the Node from the queue
+		//print and the pop out the Node from the queue
 		fmt.Println(node)
 		queue = queue[1:]
-		// add to visited map, ensuring that it will not be added again to the queue
-		// this ensure that it will not loop endlesssly through the nodes
+		// add the Node to visited map, ensuring that it will not be added again to the queue
+		// this prevents to loop endlesssly through the nodes
 		visited[node] = true
 
+		//edges are the links to other Nodes of the searching Node
 		for _, edge := range g.Edges[node] {
 			if !visited[edge.ToNode] {
 				newNode := edge.ToNode
