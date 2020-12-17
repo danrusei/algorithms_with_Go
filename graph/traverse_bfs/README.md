@@ -1,6 +1,7 @@
 # Breadth First Search Traversal
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Breadth-first_search)
+Problem description: [GeeksforGeeks](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
 Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a `search key`), and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.
 

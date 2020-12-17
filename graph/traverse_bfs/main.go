@@ -11,11 +11,9 @@ type bfs struct {
 }
 
 // BFS(Breadth First Search) traversal of the Graph
-func (g *bfs) BFStraverse() {
+func (g *bfs) BFStraverse(n *graph.Node) {
 	// Create a queue for BFS
 	queue := make([]*graph.Node, 0, len(g.Nodes))
-	//select a starting Node, in our case first node defined
-	n := g.Nodes[0]
 
 	queue = append(queue, n)
 	visited := make(map[*graph.Node]bool)
@@ -66,5 +64,5 @@ func main() {
 	g.AddEdge(&nD, &nA)
 
 	s := &bfs{g}
-	s.BFStraverse()
+	s.BFStraverse(&nA)
 }
