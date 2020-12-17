@@ -152,6 +152,12 @@ func (g *Graph) SetEdgeValue(x, y *Node, value int) bool {
 			return true
 		}
 	}
+	for _, link := range g.Edges[y] {
+		if link.ToNode == x {
+			link.Cost = value
+			return true
+		}
+	}
 	return false
 }
 
