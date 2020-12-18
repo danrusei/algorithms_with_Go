@@ -39,7 +39,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [] Merge Sort For Linked Lists
 - [] Select A Random Node from A Singly Linked List
 
-## Dynamic Programming
+## [Dynamic Programming](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic)
 
 - [] Longest Common Subsequence
 - [] Longest Increasing Subsequence
