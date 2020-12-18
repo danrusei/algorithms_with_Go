@@ -41,7 +41,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 
 ## [Dynamic Programming](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic)
 
-- [] Longest Common Subsequence
+- [x] [Longest Common Subsequence](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic/longest_common_subsequence)
 - [] Longest Increasing Subsequence
 - [] Edit Distance
 - [] Minimum Partition
