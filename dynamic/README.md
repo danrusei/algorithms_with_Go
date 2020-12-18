@@ -22,7 +22,7 @@ func nonDPFibonacci(n int) int {
 }
 ```
 
-***Top-down Dynamic programming, Momoization***
+***Top-down Dynamic programming, Memoization***
 
 ```go
 // DP Memoization fibonacci
