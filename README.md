@@ -45,7 +45,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [] Longest Increasing Subsequence
 - [] Edit Distance
 - [] Minimum Partition
-- [] Ways to Cover a Distance
+- [x] [Ways to Cover a Distance](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic/cover_distance)
 - [] Longest Path In Matrix
 - [] Subset Sum Problem
 - [] Optimal Strategy for a Game
