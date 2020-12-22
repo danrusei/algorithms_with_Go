@@ -47,7 +47,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [] Minimum Partition
 - [x] [Ways to Cover a Distance](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic/cover_distance)
 - [] Longest Path In Matrix
-- [] Subset Sum Problem
+- [x] [Subset Sum Problem](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic/subset_sum)
 - [] Optimal Strategy for a Game
 - [] 0-1 Knapsack Problem
 - [] Boolean Parenthesization Problem
