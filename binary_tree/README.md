@@ -11,9 +11,9 @@ In computer science, a binary tree is a tree data structure in which each node h
 ## Types of binary trees
 
 * A **rooted binary tree** has a root node and every node has at most two children.
-* A **full binary tree** is a tree in which every node has either 0 or 2 children.
-![full binary tree](Full_binary.png)
-* A **complete binary tree** every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible.
+* A **full binary tree** is a tree in which every node has either 0 or 2 children.  
+![full binary tree](Full_binary.png)  
+* A **complete binary tree** every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible.  
 ![complete binary tree](Complete_binary.png)
 * A **perfect binary** tree is a binary tree in which all interior nodes have two children and all leaves have the same depth or same level.
 * A **balanced binary tree** is a binary tree structure in which the left and right subtrees of every node differ in height by no more than 1.
