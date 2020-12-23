@@ -65,7 +65,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [] Find Kth Smallest/Largest Element In Unsorted Array
 - [] Given a sorted array and a number x, find the pair in array whose sum is closest to x
 
-## Tree / Binary Search Tree
+## [Tree / Binary Search Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree)
 
 - [] Find Minimum Depth of a Binary Tree
 - [] Maximum Path Sum in a Binary Tree
