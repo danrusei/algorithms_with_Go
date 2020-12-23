@@ -1,4 +1,4 @@
-# Single Linked List
+# Binary Tree
 
 **Binary Tree [Source Wikipedia](https://en.wikipedia.org/wiki/Linked_list)**
 
