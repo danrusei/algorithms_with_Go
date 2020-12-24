@@ -18,8 +18,11 @@ In computer science, a binary tree is a tree data structure in which each node h
 * A **perfect binary** tree is a binary tree in which all interior nodes have two children and all leaves have the same depth or same level.
 * A **balanced binary tree** is a binary tree structure in which the left and right subtrees of every node differ in height by no more than 1.
 
-# Common operations
+## Common operations
 
 * **Insertion** - Nodes can be inserted into binary trees in between two other nodes or added after a leaf node. In binary trees, a node that is inserted is specified as to which child it is.
 * **Deletion** - Deletion is the process whereby a node is removed from the tree. Only certain nodes in a binary tree can be removed unambiguously.
 * **Traversal** - Pre-order, in-order, and post-order traversal visit each node in a tree by recursively visiting each node in the left and right subtrees of the root.
+  * **In-Order** -the left subtree is visited first, then the root and later the right sub-tree.
+  * **Pre-Order** - the root node is visited first, then the left subtree and finally the right subtree.
+  * **Post-order** - traverse the left subtree, then the right subtree and finally the root node.
