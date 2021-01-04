@@ -1,7 +1,6 @@
-# Data Structures and Algorithms
+# GO - Data Structures and Algorithms
 
-**GO Data Structures and Algorithms**  
-The intent of this repository is to solve with **Go Language** the problems identified by the **[Geeksforgeeks Algos to revision](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)** article as a must known algorithms for coding interview. GO is a great language choice for technical interviews.  
+Inspired by the **[Geeksforgeeks - Top 10 Algorithms in Interview Questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)** article, the intent of this repository is to solve these questions using the **Go Language**.  GO is a great language choice for technical interviews and hopefully here you can find the solutions to the common algorithms/problems easy to understand.   
 
 WIP, the description of the below `unsolved yet` problems can be found in the orginal article.  
 
