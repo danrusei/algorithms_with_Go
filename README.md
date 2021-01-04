@@ -66,7 +66,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 
 ## [Tree / Binary Search Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree)
 
-- [x] [Find Minimum Depth of a Binary Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/minimum_tree)
+- [x] [Find Minimum Depth of a Binary Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/minimum_depth)
 - [] Maximum Path Sum in a Binary Tree
 - [] Check if a given array can represent Preorder Traversal of Binary Search Tree
 - [] Check whether a binary tree is a full binary tree or not
