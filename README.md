@@ -70,7 +70,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [] Maximum Path Sum in a Binary Tree
 - [x] [Check if a given array can represent Preorder Traversal of Binary Search Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/preorder_traversal)
 - [] Check whether a binary tree is a full binary tree or not
-- [] Bottom View Binary Tree
+- [x] [Bottom View Binary Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/bottom_view)
 - [] Print Nodes in Top View of Binary Tree
 - [] Remove nodes on root to leaf paths of length < K
 - [] Lowest Common Ancestor in a Binary Search Tree
