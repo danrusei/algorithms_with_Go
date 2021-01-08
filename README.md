@@ -79,7 +79,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [] Check if a binary tree is subtree of another binary tree
 - [] Reverse alternate levels of a perfect binary tree
 
-## Number Theory
+## [Number Theory](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers)
 
 - [] Modular Exponentiation
 - [] Modular multiplicative inverse
@@ -92,7 +92,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [] Chinese remainder theorem
 - [] Lucas Theorem
 
-## BIT Manipulation
+## [BIT Manipulation](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise)
 
 - [] Maximum Subarray XOR
 - [] Magic Number
@@ -105,7 +105,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [] Count number of bits to be flipped to convert A to B
 - [] Find Next Sparse Number
 
-## String / Array
+## [String / Array](https://github.com/danrusei/algorithms_with_Go/tree/main/strings)
 
 - [] Reverse an array without affecting special characters
 - [] All Possible Palindromic Partitions
