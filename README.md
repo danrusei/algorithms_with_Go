@@ -94,7 +94,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 
 ## [BIT Manipulation](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise)
 
-- [] Maximum Subarray XOR
+- [x] [Maximum Subarray XOR](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise/max_xor)
 - [] Magic Number
 - [] Sum of bit differences among all pairs
 - [] Swap All Odds And Even Bits
