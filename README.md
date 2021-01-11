@@ -107,7 +107,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 
 ## [String / Array](https://github.com/danrusei/algorithms_with_Go/tree/main/strings)
 
-- [] Reverse an array without affecting special characters
+- [x] [Reverse an array without affecting special characters](https://github.com/danrusei/algorithms_with_Go/tree/main/strings/reverse_alpha)
 - [] All Possible Palindromic Partitions
 - [] Count triplets with sum smaller than a given value
 - [] Convert array into Zig-Zag fashion
@@ -117,3 +117,4 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [] Find the smallest positive integer value that cannot be represented as sum of any subset of a given array
 - [] Smallest subarray with sum greater than a given value
 - [] Stock Buy Sell to Maximize Profit
+
