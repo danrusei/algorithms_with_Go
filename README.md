@@ -97,7 +97,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [x] [Maximum Subarray XOR](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise/max_xor)
 - [] Magic Number
 - [] Sum of bit differences among all pairs
-- [] Swap All Odds And Even Bits
+- [x] [Swap All Odds And Even Bits](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise/swapp_odd_even)
 - [] Find the element that appears once
 - [] Binary representation of a given number
 - [] Count total set bits in all numbers from 1 to n
