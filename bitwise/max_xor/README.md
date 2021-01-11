@@ -1,5 +1,6 @@
 # Find the maximum subarray XOR in a given array
 
+Source: [GeeksforGeeks](https://www.geeksforgeeks.org/find-the-maximum-subarray-xor-in-a-given-array/amp/)  
 Given an array of integers. find the maximum XOR subarray value in given array. Expected time complexity O(n).
 
 > Input: arr[] = {1, 2, 3, 4}  
