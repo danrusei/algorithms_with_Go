@@ -6,7 +6,7 @@ Although this is an introductory course to algorithms and data structures, it as
 
 WIP, the descriptions of the below `unsolved yet` problems can be found in the [orginal article](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/).  
 
-> ***Contributions are welcomed - submit a PR***.
+> ***Contributions are welcomed - submit a PR***.  
 > ***Contribution guidelines***
 > * keep the consistency and document the code
 > * keep it simple, easy to read and understand (not over-engineered, best performance is not in scope)
