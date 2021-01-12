@@ -2,11 +2,12 @@
 
 Inspired by the **[Geeksforgeeks - Top 10 Algorithms in Interview Questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)** article, the intent of this repository is to solve these questions using the **Go Language**.  GO is a great language choice for technical interviews and hopefully you can find the solutions to the common algorithms/problems easy to understand. 
 
-Although this is an introductory course to algorithms, it assumes that you are familiar with GO programming language syntax and basic concepts. 
+Although this is an introductory course to algorithms and data structures, it assumes that you are familiar with GO programming language syntax and basic concepts. 
 
-WIP, the description of the below `unsolved yet` problems can be found in the orginal article.  
+WIP, the descriptions of the below `unsolved yet` problems can be found in the [orginal article](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/).  
 
-> ***Contributions are welcomed, following below guidelines***
+> ***Contributions are welcomed - submit a PR***.
+> ***Contribution guidelines***
 > * keep the consistency and document the code
 > * keep it simple, easy to read and understand (not over-engineered, best performance is not in scope)
 
@@ -113,7 +114,7 @@ WIP, the description of the below `unsolved yet` problems can be found in the or
 - [] Convert array into Zig-Zag fashion
 - [] Generate all possible sorted arrays from alternate elements of two given sorted arrays
 - [] Pythagorean Triplet in an array
-- [] Length of the largest subarray with contiguous elements
+- [x] [Length of the largest subarray with contiguous elements](https://github.com/danrusei/algorithms_with_Go/tree/main/strings/largest_subarray)
 - [] Find the smallest positive integer value that cannot be represented as sum of any subset of a given array
 - [] Smallest subarray with sum greater than a given value
 - [] Stock Buy Sell to Maximize Profit
