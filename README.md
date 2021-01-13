@@ -116,6 +116,6 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Pythagorean Triplet in an array
 - [x] [Length of the largest subarray with contiguous elements](https://github.com/danrusei/algorithms_with_Go/tree/main/strings/largest_subarray)
 - [] Find the smallest positive integer value that cannot be represented as sum of any subset of a given array
-- [] Smallest subarray with sum greater than a given value
+- [x] [Smallest subarray with sum greater than a given value](https://github.com/danrusei/algorithms_with_Go/tree/main/strings/smallest_subarray)
 - [] Stock Buy Sell to Maximize Profit
 
