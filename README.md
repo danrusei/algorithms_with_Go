@@ -89,7 +89,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [x] [Sieve of Eratosthenes](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers/eratosthenes)
 - [] Convex Hull
 - [] Basic and Extended Euclidean algorithms
-- [] Segmented Sieve
+- [x] [Segmented Sieve](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers/segmented)
 - [] Chinese remainder theorem
 - [] Lucas Theorem
 
