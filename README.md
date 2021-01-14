@@ -83,7 +83,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 ## [Number Theory](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers)
 
 - [] Modular Exponentiation
-- [] Modular multiplicative inverse
+- [x] [Modular multiplicative inverse](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers/multiplicative)
 - [] Primality Test | Set 2 (Fermat Method)
 - [] Euler’s Totient Function
 - [x] [Sieve of Eratosthenes](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers/eratosthenes)
