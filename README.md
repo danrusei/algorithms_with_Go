@@ -11,10 +11,6 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 > * keep the consistency and document the code
 > * keep it simple, easy to read and understand (not over-engineered, best performance is not in scope)
 
-### [Queue](https://github.com/danrusei/algorithms_with_Go/tree/main/queue)
-
-### [Stack](https://github.com/danrusei/algorithms_with_Go/tree/main/stack)
-
 ## [Graph](https://github.com/danrusei/algorithms_with_Go/tree/main/graph)
 
 - [x] [Breadth First Search (BFS)](https://github.com/danrusei/algorithms_with_Go/tree/main/graph/traverse_bfs)
@@ -118,4 +114,10 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Find the smallest positive integer value that cannot be represented as sum of any subset of a given array
 - [x] [Smallest subarray with sum greater than a given value](https://github.com/danrusei/algorithms_with_Go/tree/main/strings/smallest_subarray)
 - [] Stock Buy Sell to Maximize Profit
+
+## [Other Data Structures](https://github.com/danrusei/algorithms_with_Go/tree/main/other_ds)
+
+- [x] [Stack](https://github.com/danrusei/algorithms_with_Go/tree/main/other_ds/stack)
+- [x] [Queue](https://github.com/danrusei/algorithms_with_Go/tree/main/other_ds/queue)
+- [] HashMap
 
