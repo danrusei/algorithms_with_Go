@@ -22,7 +22,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Minimum Spanning tree (Kruskal)
 - [] Topological Sort
 - [x] [Boggle (Find all possible words in a board of characters)](https://github.com/danrusei/algorithms_with_Go/tree/main/graph/boggle)
-- [] Bridges in a Graph
+- [x] [Bridges in a Graph](https://github.com/danrusei/algorithms_with_Go/tree/main/graph/bridges)
 
 ## [Linked List](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist)
 
