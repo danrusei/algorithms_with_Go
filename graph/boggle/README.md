@@ -1,4 +1,4 @@
-# Dijkstra Algorithm (Shortest Path First algorithm)
+# Boggle (Find all possible words in a board of characters) 
 
 Problem description: [GeeksforGeeks](https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/amp/)
 
