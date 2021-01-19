@@ -21,7 +21,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Minimum Spanning tree (Prim)
 - [] Minimum Spanning tree (Kruskal)
 - [] Topological Sort
-- [] Boggle (Find all possible words in a board of characters)
+- [x] [Boggle (Find all possible words in a board of characters)](https://github.com/danrusei/algorithms_with_Go/tree/main/graph/boggle)
 - [] Bridges in a Graph
 
 ## [Linked List](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist)
