@@ -100,7 +100,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Count total set bits in all numbers from 1 to n
 - [x] [Rotate bits of a number](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise/rotate_bits)
 - [] Count number of bits to be flipped to convert A to B
-- [] Find Next Sparse Number
+- [x] [Find Next Sparse Number](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise/next_sparse)
 
 ## [String / Array](https://github.com/danrusei/algorithms_with_Go/tree/main/strings)
 
