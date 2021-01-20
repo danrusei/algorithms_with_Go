@@ -98,7 +98,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Find the element that appears once
 - [x] [Binary representation of a given number](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise/decimal_to_binary)
 - [] Count total set bits in all numbers from 1 to n
-- [] Rotate bits of a number
+- [x] [Rotate bits of a number](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise/rotate_bits)
 - [] Count number of bits to be flipped to convert A to B
 - [] Find Next Sparse Number
 
