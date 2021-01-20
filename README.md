@@ -35,7 +35,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Union And Intersection Of 2 Linked Lists
 - [x] [Detect And Remove Loop In A Linked List](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist/remove_loop)
 - [] Merge Sort For Linked Lists
-- [] Select A Random Node from A Singly Linked List
+- [x] [Select A Random Node from A Singly Linked List](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist/random_node)
 
 ## [Dynamic Programming](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic)
 
