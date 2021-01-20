@@ -28,7 +28,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 
 - [x] [Insertion of a node in Linked List (On the basis of some constraints)](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist/insert_node)
 - [] Delete a given node in Linked List (under given constraints)
-- [] Compare two strings represented as linked lists
+- [x] [Compare two strings represented as linked lists](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist/compare_strings)
 - [] Add Two Numbers Represented By Linked Lists
 - [] Merge A Linked List Into Another Linked List At Alternate Positions
 - [x] [Reverse A List In Groups Of Given Size](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist/reverse_by_groups)
