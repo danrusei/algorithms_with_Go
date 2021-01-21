@@ -1,15 +1,15 @@
 # GO - Data Structures and Algorithms
 
-Inspired by the **[Geeksforgeeks - Top 10 Algorithms in Interview Questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)** article, the intent of this repository is to solve these questions using the **Go Language**.  GO is a great language choice for technical interviews and hopefully you can find the solutions to the common algorithms/problems easy to understand. 
+Inspired by the **[Geeksforgeeks - Top 10 Algorithms in Interview Questions](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/)** article, the intent of this repository is to solve these questions using the **Go Language**. GO is a great language choice for technical interviews and hopefully you can find these solutions to the common algorithms/problems easy to understand. 
 
-Although this is an introductory course to algorithms and data structures, it assumes that you are familiar with GO programming language syntax and basic concepts. 
+Although this is an introductory material to algorithms and data structures, it assumes that you are familiar with GO programming language syntax and basic concepts. 
 
 WIP, the descriptions of the below `unsolved yet` problems can be found in the [orginal article](https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/amp/).  
 
-> ***Contributions are welcomed - submit a PR***.  
+> ***Contributions are welcomed - solve a problem and submit a PR***.  
 > ***Contribution guidelines***
 > * keep the consistency and document the code
-> * keep it simple, easy to read and understand (not over-engineered, best performance is not in scope)
+> * optimize for readability and simplicity (not over-engineered, best performance is not in scope)
 
 ## [Graph](https://github.com/danrusei/algorithms_with_Go/tree/main/graph)
 
@@ -74,7 +74,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [x] [Remove nodes on root to leaf paths of length < K](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/remove_nodes)
 - [] Lowest Common Ancestor in a Binary Search Tree
 - [] Check if a binary tree is subtree of another binary tree
-- [] Reverse alternate levels of a perfect binary tree
+- [x] [Reverse alternate levels of a perfect binary tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/reverse_alternate)
 
 ## [Number Theory](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers)
 
