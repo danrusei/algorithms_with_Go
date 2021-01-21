@@ -107,7 +107,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [x] [Reverse an array without affecting special characters](https://github.com/danrusei/algorithms_with_Go/tree/main/strings/reverse_alpha)
 - [] All Possible Palindromic Partitions
 - [] Count triplets with sum smaller than a given value
-- [] Convert array into Zig-Zag fashion
+- [x] [Convert array into Zig-Zag fashion](https://github.com/danrusei/algorithms_with_Go/tree/main/strings/zig_zag)
 - [] Generate all possible sorted arrays from alternate elements of two given sorted arrays
 - [] Pythagorean Triplet in an array
 - [x] [Length of the largest subarray with contiguous elements](https://github.com/danrusei/algorithms_with_Go/tree/main/strings/largest_subarray)
