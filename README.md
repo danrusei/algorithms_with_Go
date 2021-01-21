@@ -71,7 +71,7 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Check whether a binary tree is a full binary tree or not
 - [x] [Bottom View Binary Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/bottom_view)
 - [] Print Nodes in Top View of Binary Tree
-- [] Remove nodes on root to leaf paths of length < K
+- [x] [Remove nodes on root to leaf paths of length < K](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/remove_nodes)
 - [] Lowest Common Ancestor in a Binary Search Tree
 - [] Check if a binary tree is subtree of another binary tree
 - [] Reverse alternate levels of a perfect binary tree
