@@ -12,8 +12,13 @@ package linkedlist
 import "fmt"
 
 // Node struct holds a node
+// the value of the Node could be anything (int, string or a struncture)
+// interface{} - an empty interface may hold values of any type.
+// if using interface{} confuse you, change with any type you would like
+// initially I started with int value, but some problems require strings as values 
+// another example: implementing Hash-Table I need even to define a Key-Value struct
 type Node struct {
-	Val  int
+	Val  interface{}
 	Next *Node
 }
 
@@ -29,7 +34,7 @@ func NewLinkedlist() *Linkedlist {
 }
 
 // NewNode creates a new node
-func NewNode(val int) *Node {
+func NewNode(val interface{}) *Node {
 	return &Node{val, nil}
 }
 
@@ -38,14 +43,14 @@ func (ll *Linkedlist) String() string {
 	cur := ll.Head
 	var printedlist string
 	for ; cur.Next != nil; cur = cur.Next {
-		printedlist = printedlist + fmt.Sprintf("%d \t", cur.Val)
+		printedlist = printedlist + fmt.Sprintf("%v \t", cur.Val)
 	}
-	printedlist = printedlist + fmt.Sprintf("%d", cur.Val)
+	printedlist = printedlist + fmt.Sprintf("%v", cur.Val)
 	return printedlist
 }
 
 //AddAtBeg adds a Node at the beginning of the list
-func (ll *Linkedlist) AddAtBeg(val int) {
+func (ll *Linkedlist) AddAtBeg(val interface{}) {
 	n := NewNode(val)
 	n.Next = ll.Head
 	ll.Head = n
@@ -54,7 +59,7 @@ func (ll *Linkedlist) AddAtBeg(val int) {
 }
 
 //AddAtEnd adds a Node at the end of the list
-func (ll *Linkedlist) AddAtEnd(val int) {
+func (ll *Linkedlist) AddAtEnd(val interface{}) {
 	n := NewNode(val)
 
 	if ll.Head == nil {
@@ -72,7 +77,7 @@ func (ll *Linkedlist) AddAtEnd(val int) {
 }
 
 //DelAtBeg deletes a node from the beginning of the list
-func (ll *Linkedlist) DelAtBeg() int {
+func (ll *Linkedlist) DelAtBeg() interface{} {
 	if ll.Head == nil {
 		return -1
 	}
@@ -84,7 +89,7 @@ func (ll *Linkedlist) DelAtBeg() int {
 }
 
 //DelAtEnd deletes a node from the end of the list
-func (ll *Linkedlist) DelAtEnd() int {
+func (ll *Linkedlist) DelAtEnd() interface{} {
 	if ll.Head == nil {
 		return -1
 	}
@@ -101,7 +106,7 @@ func (ll *Linkedlist) DelAtEnd() int {
 }
 
 //DeleteWithValute deletes a node which value is equal to the function parameter
-func (ll *Linkedlist) DeleteWithValute(val int) int {
+func (ll *Linkedlist) DeleteWithValute(val interface{}) interface{} {
 	if ll.Head == nil {
 		return -1
 	}

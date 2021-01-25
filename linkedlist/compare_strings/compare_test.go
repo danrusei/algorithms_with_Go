@@ -2,13 +2,19 @@ package compare
 
 import (
 	"testing"
+
+	"github.com/danrusei/algorithms_with_go/linkedlist"
 )
+
+type llist struct {
+	linkedlist.Linkedlist
+}
 
 // this function creates the lists,
 // the way the linkedlist is defined it allows us to check the length
-func createLinkedList(vals []string) *Linkedlist {
-	list := NewLinkedlist()
-	node := NewNode(vals[0])
+func createLinkedList(vals []string) *llist {
+	list := llist{}
+	node := linkedlist.NewNode(vals[0])
 	list.Head = node
 	list.Length = 1
 	cur := list.Head
@@ -16,11 +22,11 @@ func createLinkedList(vals []string) *Linkedlist {
 		if i == 0 {
 			continue
 		}
-		node := NewNode(val)
+		node := linkedlist.NewNode(val)
 		cur.Next = node
 		list.Length++
 	}
-	return list
+	return &list
 }
 
 func TestComparedStrings(t *testing.T) {

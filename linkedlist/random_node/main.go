@@ -37,7 +37,8 @@ func (ll *llist) randomNode() int {
 		n++
 	}
 
-	return result
+	// type assertion is required because Linked List value = interface{}
+	return result.(int)
 }
 
 func main() {

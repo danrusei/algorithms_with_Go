@@ -14,7 +14,8 @@ type llist struct {
 func (ll *llist) sortedInsert(n *linkedlist.Node) {
 
 	//special case for the head end
-	if ll.Head == nil || ll.Head.Val >= n.Val {
+	// type assertion is required as the Linked List value = interface{}
+	if ll.Head == nil || ll.Head.Val.(int) >= n.Val.(int) {
 		n.Next = ll.Head
 		ll.Head = n
 		ll.Length++
@@ -23,7 +24,7 @@ func (ll *llist) sortedInsert(n *linkedlist.Node) {
 
 	//locate the node before the point of insertion
 	cur := ll.Head
-	for ; cur.Next != nil && cur.Next.Val < n.Val; cur = cur.Next {
+	for ; cur.Next != nil && cur.Next.Val.(int) < n.Val.(int); cur = cur.Next {
 	}
 	n.Next = cur.Next
 	cur.Next = n

@@ -15,10 +15,10 @@ func TestLinkedList(t *testing.T) {
 		want := []int{3, 2, 1}
 		got := []int{}
 		current := list.Head
-		got = append(got, current.Val)
+		got = append(got, current.Val.(int))
 		for current.Next != nil {
 			current = current.Next
-			got = append(got, current.Val)
+			got = append(got, current.Val.(int))
 		}
 		if !reflect.DeepEqual(got, want) {
 			t.Errorf("got: %v, want: %v", got, want)
@@ -31,10 +31,10 @@ func TestLinkedList(t *testing.T) {
 		want := []int{3, 2, 1, 4}
 		got := []int{}
 		current := list.Head
-		got = append(got, current.Val)
+		got = append(got, current.Val.(int))
 		for current.Next != nil {
 			current = current.Next
-			got = append(got, current.Val)
+			got = append(got, current.Val.(int))
 		}
 		if !reflect.DeepEqual(got, want) {
 			t.Errorf("got: %v, want: %v", got, want)
