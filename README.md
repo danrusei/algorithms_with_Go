@@ -37,18 +37,24 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Merge Sort For Linked Lists
 - [x] [Select A Random Node from A Singly Linked List](https://github.com/danrusei/algorithms_with_Go/tree/main/linkedlist/random_node)
 
-## [Dynamic Programming](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic)
+## [Tree / Binary Search Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree)
 
-- [x] [Longest Common Subsequence](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic/longest_common_subsequence)
-- [] Longest Increasing Subsequence
-- [] Edit Distance
-- [] Minimum Partition
-- [x] [Ways to Cover a Distance](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic/cover_distance)
-- [] Longest Path In Matrix
-- [x] [Subset Sum Problem](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic/subset_sum)
-- [] Optimal Strategy for a Game
-- [] 0-1 Knapsack Problem
-- [] Boolean Parenthesization Problem
+- [x] [Find Minimum Depth of a Binary Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/minimum_depth)
+- [] Maximum Path Sum in a Binary Tree
+- [x] [Check if a given array can represent Preorder Traversal of Binary Search Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/preorder_traversal)
+- [] Check whether a binary tree is a full binary tree or not
+- [x] [Bottom View Binary Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/bottom_view)
+- [] Print Nodes in Top View of Binary Tree
+- [x] [Remove nodes on root to leaf paths of length < K](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/remove_nodes)
+- [] Lowest Common Ancestor in a Binary Search Tree
+- [] Check if a binary tree is subtree of another binary tree
+- [x] [Reverse alternate levels of a perfect binary tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/reverse_alternate)
+
+## [Other Data Structures](https://github.com/danrusei/algorithms_with_Go/tree/main/other_ds)
+
+- [x] [STACK](https://github.com/danrusei/algorithms_with_Go/tree/main/other_ds/stack)
+- [x] [QUEUE](https://github.com/danrusei/algorithms_with_Go/tree/main/other_ds/queue)
+- [] HASH-TABLE
 
 ## [Sorting And Searching](https://github.com/danrusei/algorithms_with_Go/tree/main/sorting)
 
@@ -63,31 +69,18 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Find Kth Smallest/Largest Element In Unsorted Array
 - [] Given a sorted array and a number x, find the pair in array whose sum is closest to x
 
-## [Tree / Binary Search Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree)
+## [Dynamic Programming](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic)
 
-- [x] [Find Minimum Depth of a Binary Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/minimum_depth)
-- [] Maximum Path Sum in a Binary Tree
-- [x] [Check if a given array can represent Preorder Traversal of Binary Search Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/preorder_traversal)
-- [] Check whether a binary tree is a full binary tree or not
-- [x] [Bottom View Binary Tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/bottom_view)
-- [] Print Nodes in Top View of Binary Tree
-- [x] [Remove nodes on root to leaf paths of length < K](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/remove_nodes)
-- [] Lowest Common Ancestor in a Binary Search Tree
-- [] Check if a binary tree is subtree of another binary tree
-- [x] [Reverse alternate levels of a perfect binary tree](https://github.com/danrusei/algorithms_with_Go/tree/main/binary_tree/reverse_alternate)
-
-## [Number Theory](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers)
-
-- [] Modular Exponentiation
-- [x] [Modular multiplicative inverse](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers/multiplicative)
-- [] Primality Test | Set 2 (Fermat Method)
-- [] Euler’s Totient Function
-- [x] [Sieve of Eratosthenes](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers/eratosthenes)
-- [] Convex Hull
-- [] Basic and Extended Euclidean algorithms
-- [x] [Segmented Sieve](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers/segmented)
-- [] Chinese remainder theorem
-- [] Lucas Theorem
+- [x] [Longest Common Subsequence](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic/longest_common_subsequence)
+- [] Longest Increasing Subsequence
+- [] Edit Distance
+- [] Minimum Partition
+- [x] [Ways to Cover a Distance](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic/cover_distance)
+- [] Longest Path In Matrix
+- [x] [Subset Sum Problem](https://github.com/danrusei/algorithms_with_Go/tree/main/dynamic/subset_sum)
+- [] Optimal Strategy for a Game
+- [] 0-1 Knapsack Problem
+- [] Boolean Parenthesization Problem
 
 ## [BIT Manipulation](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise)
 
@@ -102,6 +95,19 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Count number of bits to be flipped to convert A to B
 - [x] [Find Next Sparse Number](https://github.com/danrusei/algorithms_with_Go/tree/main/bitwise/next_sparse)
 
+## [Number Theory](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers)
+
+- [] Modular Exponentiation
+- [x] [Modular multiplicative inverse](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers/multiplicative)
+- [] Primality Test | Set 2 (Fermat Method)
+- [] Euler’s Totient Function
+- [x] [Sieve of Eratosthenes](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers/eratosthenes)
+- [] Convex Hull
+- [] Basic and Extended Euclidean algorithms
+- [x] [Segmented Sieve](https://github.com/danrusei/algorithms_with_Go/tree/main/numbers/segmented)
+- [] Chinese remainder theorem
+- [] Lucas Theorem
+
 ## [String / Array](https://github.com/danrusei/algorithms_with_Go/tree/main/strings)
 
 - [x] [Reverse an array without affecting special characters](https://github.com/danrusei/algorithms_with_Go/tree/main/strings/reverse_alpha)
@@ -114,10 +120,4 @@ WIP, the descriptions of the below `unsolved yet` problems can be found in the [
 - [] Find the smallest positive integer value that cannot be represented as sum of any subset of a given array
 - [x] [Smallest subarray with sum greater than a given value](https://github.com/danrusei/algorithms_with_Go/tree/main/strings/smallest_subarray)
 - [] Stock Buy Sell to Maximize Profit
-
-## [Other Data Structures](https://github.com/danrusei/algorithms_with_Go/tree/main/other_ds)
-
-- [x] [Stack](https://github.com/danrusei/algorithms_with_Go/tree/main/other_ds/stack)
-- [x] [Queue](https://github.com/danrusei/algorithms_with_Go/tree/main/other_ds/queue)
-- [] HashMap
 
